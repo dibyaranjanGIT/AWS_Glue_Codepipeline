@@ -18,7 +18,7 @@ Resources:
       Name: MyGlueJobSecond 
       Role: !GetAtt GlueServiceRole.Arn
       Command:
-        Name: glueetl
+        Name: glueetl1
         ScriptLocation: s3://mycodepipelinebucket1/script/glue_script_second.py
       DefaultArguments:
         "--TempDir": "s3://mycodepipelinebucket1/temp/"
