@@ -5,7 +5,7 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'mybucket13001'  # Replace with your desired unique bucket name
+      BucketName: 'jenabucket13001'  # Replace with your desired unique bucket name
       
 
 Outputs:
